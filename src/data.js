@@ -8,6 +8,8 @@ import { Icon } from "@iconify/react";
 import Logo from "./images/logo.svg";
 import SDL from "./images/SDL.png";
 import Todo from "./images/Todo.png";
+import Movieland from "./images/Movieland.png";
+import Youtube from "./images/youtube-clone.png";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -95,13 +97,21 @@ export const resume = "https://drive.google.com/file/d/1-A4tL0D9ZUoHruLPHejXEHFN
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["SDL-WEBSITE", "Todo", "example-3"];
+export const filteredProjects = ["SDL-WEBSITE", "Youtube-Clone", "Movieland", "Todo"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
   {
     name: "SDL-WEBSITE",
     image: SDL,
+  },
+  {
+    name: "Youtube-Clone",
+    image: Youtube,
+  },
+  {
+    name: "Movieland",
+    image: Movieland,
   },
   {
     name: "Todo",
