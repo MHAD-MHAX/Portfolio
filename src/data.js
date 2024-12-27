@@ -110,15 +110,15 @@ export const projectCardImages = [
     image: SDL,
   },
   {
-    name: "Todo",
+    name: "TODO",
     image: Todo,
   },
   {
-    name: "Yagitech",
+    name: "YAGITECH",
     image: Yagitech,
   },
   {
-    name: "Blog",
+    name: "BLOG",
     image: Prop,
   },
 ];
