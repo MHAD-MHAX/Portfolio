@@ -9,7 +9,7 @@ import Logo from "./images/logo.svg";
 import SDL from "./images/SDL.png";
 import Todo from "./images/Todo.png";
 import Yagitech from "./images/Yagitech.png";
-import Todo from "./images/Todo.png";
+import Prop from "./images/Prop.png";
 
 
 
@@ -119,7 +119,7 @@ export const projectCardImages = [
   },
   {
     name: "Blog",
-    image: Blog,
+    image: Prop,
   },
 ];
 
