@@ -11,6 +11,8 @@ import Todo from "./images/Todo.png";
 import Yagitech from "./images/Yagitech.png";
 import Prop from "./images/Prop.png";
 
+import Business from "./images/Business Creatives.png"
+
 
 
 
@@ -101,7 +103,7 @@ export const resume = "https://docs.google.com/document/d/1MwWzCxCU3IsQ1xOwAnVNd
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["SDL-WEBSITE", "Todo", "Yagitech", "Blog"];
+export const filteredProjects = ["SDL-WEBSITE", "SAAS-project", "Yagitech", "Blog"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
 export const projectCardImages = [
@@ -110,8 +112,8 @@ export const projectCardImages = [
     image: SDL,
   },
   {
-    name: "TODO",
-    image: Todo,
+    name: "SAAS-project",
+    image: Business,
   },
   {
     name: "YAGITECH",
